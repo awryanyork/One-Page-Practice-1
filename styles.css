@@ -4,28 +4,90 @@
 
 body {
     text-align: center;
+    font-family: sans-serif;
 }
 
-.bodywrap {
-    width: 90%;
+.container {
+    width: 80%;
     margin: auto;
 }
 
 /************************
-HEADER
+         HEADER
 *************************/
 
-header {
-    background: #DB0000;
+.header {
+    background: #DB2A1A;
     color: #fff;
+    background: linear-gradient(#F5ED40, #DB2A1A 90%);
 }
 
 h1 {
     font-size: 1.75em;
     font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px 0 5px;
 }   
 
 h2 {
-    font-size: .75em;
+    font-size: 1em;
     font-weight: normal;
+    padding: 0 0 10px;
+}
+
+/************************
+          BODY
+*************************/
+
+.body {
+    background: #F2F2F2;
+}
+
+/************************
+BUTTON
+*************************/
+
+.buttonwrap {
+    border-bottom: 1px solid #B2B2B2;
+}
+
+button {
+    color: #fff;
+    background: #DB2A1A;
+    background: linear-gradient(#DB2A1A , #F5ED40 90%);
+    box-shadow: 2px 2px 2px #B2B2B2;
+    border: none;
+    margin: 15px 0 20px;
+    width: 175px;
+    font-size: .75em;
+    text-transform: uppercase;
+    padding: 5px 0;
+}
+
+button:active {
+    color: #1F1F1F;
+}
+
+/************************
+TESTIMONIALS
+*************************/
+
+h3 {
+    font-size: 1.25em;
+    color: #333333;
+    margin: 15px 0;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+img {
+    margin: 5px 0 15px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+p {
+    color: #404040;
+    margin: 0 0 20px;
+    font-size: 1em;
 }
