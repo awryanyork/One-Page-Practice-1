@@ -7,9 +7,18 @@ body {
     font-family: sans-serif;
 }
 
+.body {
+    padding-bottom: 25px;
+}
+
 .container {
     width: 80%;
     margin: auto;
+}
+
+.test1,
+.janeinfo {
+    line-height: 1.25em;
 }
 
 /************************
@@ -72,22 +81,104 @@ button:active {
 TESTIMONIALS
 *************************/
 
-h3 {
+.testwrap {
+    border-bottom: 1px solid #B2B2B2;
+}
+
+.testh3 {
     font-size: 1.25em;
-    color: #333333;
+    color: #363636;
     margin: 15px 0;
     text-transform: uppercase;
     font-weight: bold;
 }
 
-img {
+.after1 {
     margin: 5px 0 15px;
     width: 100%;
     border-radius: 5px;
 }
 
-p {
+.test1 {
     color: #404040;
-    margin: 0 0 20px;
+    margin: 0 0 25px;
     font-size: 1em;
 }
+
+/************************
+ABOUT
+*************************/
+
+.abouth3,
+.servicesh3 {
+    font-size: 1.25em;
+    color: #363636;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.abouth3 {
+    margin: 20px 0;
+}
+
+.servicesh3 {
+    margin: 25px 0 20px;
+}
+
+.jane {
+    border-radius: 100%;
+    width: 75%;
+}
+
+.janeinfo {
+    padding: 25px 0 0;
+    color: #404040;
+}
+
+.servicelist > li{
+    color: #404040;
+    margin-bottom: 10px;
+    list-style-position: inside;
+}
+
+.shaving {
+    font-size: .75em;
+    color: #6E6E6E;
+    text-transform: lowercase;
+    display: inline-block;
+}
+
+/************************
+          FOOTER
+*************************/
+
+footer {
+    background: #474747;
+    color: #B8B8B8;
+    padding: 25px;
+}
+
+.sociallinks {
+    display: inline-block;
+}
+
+.iconLink {
+    display: inline-block;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+    fill: #B8B8B8;
+}
+
+.socialname {
+    font-size: 1.25em;
+    vertical-align: middle;
+    display: inline-block;
+    margin: 0 0 0 5px;
+}
+
+
+
