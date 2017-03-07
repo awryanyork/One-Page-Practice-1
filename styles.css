@@ -182,3 +182,108 @@ footer {
 
 
 
+
+
+
+/*******************************************
+             MEDIA QUERIES
+********************************************/
+
+@media (min-width:426px) {
+
+    /************************
+            HEADER
+    *************************/
+
+    h1 {
+        font-size: 3em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    /************************
+    BUTTON
+    *************************/
+
+    button {
+        font-size: 1.5em;
+        width: 60%;
+        padding: 10px 0;
+        margin: 30px 0;
+    }
+
+    /************************
+             BODY
+    *************************/
+    .testh3,
+    .abouth3  {
+        margin: 30px 0;
+    }
+
+    /************************
+    TESTIMONIALS
+    *************************/
+
+    .testwrap {
+        display: table;
+        padding-bottom: 30px;
+    }
+
+    
+    .afterwrap,
+    .test1 {
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    .after1 {
+        width: 150px;
+        margin: 0;
+    }
+
+    .test1 {
+        padding: 0 0 0 30px;
+        text-align: justify;
+        font-size: 1em;
+        margin: 0;
+    }
+
+    /************************
+    ABOUT
+    *************************/
+
+    .aboutwrap {
+        display: table;
+    }
+
+    .janewrap,
+    .janeinfo {
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    .jane {
+        width: 150px;
+    }
+
+    .janeinfo {
+        font-size: 1em;
+        padding: 0 0 0 30px;
+        text-align: justify;
+    }
+
+    /************************
+    SERVICES
+    *************************/
+
+    .servicesh3 {
+        margin: 30px 0 20px;
+    }
+     
+
+
+
+
+}
