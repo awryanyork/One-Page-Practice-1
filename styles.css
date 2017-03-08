@@ -281,9 +281,62 @@ footer {
     .servicesh3 {
         margin: 30px 0 20px;
     }
-     
 
+}
 
+@media (min-width: 769px) {
 
+    .contentwrap {
+        display: table;
+        border-bottom: 1px solid #B2B2B2;
+    }
+
+    .testwrap,
+    .aboutwrap {
+        border: none;
+    }
+    
+    .leftwrap,
+    .rightwrap {
+        display: table-cell;
+        width: 45%;
+    }
+
+    .leftwrap {
+        padding-right: 2.5%;
+    }
+
+    .rightwrap {
+        padding-left: 2.5%;
+    }
+
+    .testh3,
+    .testwrap,
+    .afterwrap,
+    .after1,
+    .test1 {
+        display: block;
+    }
+
+    .abouth3,
+    .aboutwrap,
+    .janewrap,
+    .jane,
+    .janeinfo {
+        display: block;
+    }
+
+    .after1,
+    .jane {
+        margin: 0 auto 20px;
+    }
+
+    .test1,
+    .janeinfo {
+        margin: 40px 0 0 0;
+        padding: 0;
+    }
+
+    
 
 }
